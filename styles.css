@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  #F1F1F2;
+    text-align: center;
+}
+
+header {
+    background: rgb(12, 47, 65);
+    color:  cyan;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(14, 212, 183);
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    background: #A1D6E2;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    margin-top: 10px;
+}
+
+.project {
+    background:#16a3c3 ;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: rgb(228, 18, 211);
+    border: none;
+    cursor: pointer;
+}
